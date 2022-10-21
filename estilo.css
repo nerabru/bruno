@@ -1,0 +1,289 @@
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #57a1be;
+    border-radius: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: "Tahoma", "Arial";
+    background: #88d9e9;
+}
+
+header {
+    background-image: linear-gradient(#89bed3, #88d9e9);
+    padding: 20px 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo_caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+
+}
+
+.banner {
+    width: 100%
+}
+
+.logo {
+    width: 30%;
+    border-radius: 50px;
+
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: medium;
+    margin: 0 0 1em;
+    clear: center;
+
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.principal strong {
+    font-weight: bold;
+
+}
+
+.principal em {
+
+    font-style: italic;
+}
+
+.oculos {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20 px 0;
+}
+
+.textoMain {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.map {
+    padding: 3em 0;
+    background: linear-gradient (white, black);
+    text-align: center;
+}
+
+.mapa-coneudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.beneficio {
+    padding: 7 em 0;
+    background: rgba(248, 182, 0, 0, 582);
+}
+
+.conteudo-beneficio {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista-beneficio {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: large;
+    margin: 0 0 1em;
+    clear: center;
+
+
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-beneficios {
+    width: 80%;
+    opacity: 0.8;
+    transition: 200ms;
+    box-shadow: 10px 10px 5px 2px black;
+}
+
+.img.beneficios:hover {
+    opacity: 0.8;
+}
+
+.itens {
+    line-height: 1.7;
+}
+
+.itens:before {
+    content: "*";
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.video {
+    width: 600px;
+    margin: 3em auto;
+}
+
+nav a:hover {
+    color: rgba(248, 182, 0, 0.582);
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to top, #89bed3, #88d9e9);
+    padding: 25px 0;
+}
+
+.banner {
+    width: 100%;
+}
+
+.copyright {
+    color: black;
+    font-size: 25px;
+    margin: 5px 0 0;
+}
+
+.blocos {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5%;
+
+}
+
+.bloco1 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15cm;
+    height: 15cm;
+    background-color: #89bed3;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloco1:hover{
+    border-color: black;
+}
+
+.bloco1:hover h3{
+    font-size: 25px;
+}
+
+.bloco2 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15cm;
+    height: 15cm;
+    background-color: #89bed3;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloco2:hover{
+    border-color: black;
+}
+
+.bloco2:hover h3{
+    font-size: 25px;
+}
+
+.bloco3 {
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 15cm;
+    height: 15cm;
+    background-color: #89bed3;
+    border-radius: 20px;
+    color: black;
+    font-size: large;
+    border-style: solid;
+    border-color: white;
+}
+
+.bloco3:hover{
+    border-color: black;
+}
+
+.bloco3:hover h3{
+    font-size: 25px;
+}
+
+.escuros {
+    border-radius: 20px;
+    text-align: center;
+    width: 13cm;
+    height: 13cm;
+}
